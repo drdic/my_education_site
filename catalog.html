@@ -28,68 +28,128 @@
         </header>
         <section class="top__content">
             <h1 class="title">Каталог</h1>
-            <!-- <p class="top__text">Наша мебель — ваше отражение</p>
-            <a href="catalog.html" class="link">Перейти в каталог</a> -->
         </section>   
     </div>
-    <!-- <section class="for-box center">
-        <h2 class="heading">Мебель для ...</h2>
-        <div class="for">
-            <div class="for__item for__item_1 for__item_big">ОТДЫХА</div>
-            <div class="for__item for__item_2 for__item_big">РАБОТЫ</div>
-            <div class="for__item for__item_3">КУХНИ</div>
-            <div class="for__item for__item_4">ДЕТСКОЙ</div>
-            <div class="for__item for__item_5">ВАННОЙ</div>
-        </div>
-    </section> -->
-    
     <section class="product-catalog center">
-        <h2 class="heading">Каталог товаров</h2>
+        <section class="catalog">
+            <nav class="catalog-nav">
+                <ul class="catalog__list">
+                  <li class="catalog__item">
+                    <a class="catalog__link" href="index.html">Главная</a>
+                  </li>
+                  <p>/</p>
+                  <li class="catalog__item">
+                    <a class="catalog__link" href="catalog.html">Каталог товаров</a>
+                  </li>
+                </ul>
+            </nav>
+            <form class="catalog__filter" action="#">
+                <button class="button__filter">Фильтрация <img src="./img/polygon.svg" alt=""></button>
+                <div class="select-wrapper">
+                  <select class="select__popul" name="sort" title="Сортировка">
+                    <option value="popular" selected>По популярности</option>
+                    <option value="newest">Сначала новые</option>
+                    <option value="oldest">Сначала старые</option>
+                    <option value="price_asc">По возрастанию цены</option>
+                    <option value="price_desc">По убыванию цены</option>
+                  </select>
+                  <img src="./img/polygon.svg" alt="" class="select-icon">
+                </div>
+              </form>
+        </section>
         <div class="product-content">
             <div class="product">
-                <img src="./img/tatran.jpeg" alt="фото Кровать TATRAN" class="product__img">
-                <a class="product__name" href="tatran.html">Кровать TATRAN</a>
+                <img src="./img/tatran-2.jpeg" alt="фото Кровать TATRAN" class="product__img">
+                <a class="product__name" href="tatran-2.html">Кровать TATRAN</a>
                 <p class="product__text">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
                 <div class="product__box-price">
                     <span class="product__price">120 000 руб.</span>
                 </div>
             </div>
             <div class="product">
-                <img src="./img/vilora.jpeg" alt="фото Кресло VILORA" class="product__img">
-                <a class="product__name" href="vilora.html">Кресло VILORA</a>
+                <img src="./img/vilora-2.jpeg" alt="фото Кресло VILORA" class="product__img">
+                <a class="product__name" href="vilora-2.html">Кресло VILORA</a>
                 <p class="product__text">Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань.</p>
                 <div class="product__box-price">
                     <span class="product__price">21 000 руб.</span>
                 </div>
             </div>
             <div class="product">
-                <img src="./img/menu.jpeg" alt="фото Стол MENU" class="product__img">
-                <a class="product__name" href="menu.html">Стол MENU</a>
-                <p class="product__text">Для того чтобы трапезничать было приятно, необходим правильный обеденный стол.</p>
+                <img src="./img/menu-2.jpeg" alt="фото Стол MENU" class="product__img">
+                <a class="product__name" href="menu-2.html">Стол MENU</a>
+                <p class="product__text">Европейский дуб - отличается особой прочностью и стабильностью.</p>
                 <div class="product__box-price">
                     <span class="product__price">34 000 руб.</span>
                 </div>
             </div>
             <div class="product">
-                <img src="./img/askesta.jpeg" alt="фото Кресло ASKESTA" class="product__img">
-                <a class="product__name" href="askesta.html">Кресло ASKESTA</a>
-                <p class="product__text">Высокоэластичный пенополиуретан в «начинке» кресла надежен и долговечен.</p>
+                <img src="./img/askesta-2.jpeg" alt="фото Диван ASKESTA" class="product__img">
+                <a class="product__name" href="askesta-2.html">Диван ASKESTA</a>
+                <p class="product__text">Благодаря защелкивающемуся механизму диван легко раскладывается в комфортную кровать.</p>
                 <div class="product__box-price">
                     <span class="product__price">68 000 руб.</span>
                 </div>
             </div>
             <div class="product">
-                <img src="./img/norman.jpeg" alt="фото Стол NORMAN" class="product__img">
-                <a class="product__name" href="norman.html">Стол NORMAN</a>
+                <img src="./img/lunar-2.jpeg" alt="фото Кресло LUNAR" class="product__img">
+                <a class="product__name" href="lunar-2.html">Стол NORMAN</a>
                 <p class="product__text">Прекрасно переносит солнечные лучи, перепады влажности и любые осадки.</p>
                 <div class="product__box-price">
                     <span class="product__price">40 000 руб.</span>
                 </div>
             </div>
             <div class="product">
-                <img src="./img/nastan.jpeg" alt="фото Диван NASTAN" class="product__img">
-                <a class="product__name" href="nastan.html">Диван NASTAN</a>
+                <img src="./img/nastan-2.jpeg" alt="фото Шкаф Nastan" class="product__img">
+                <a class="product__name" href="nastan-2.html">Шкаф Nastan</a>
+                <p class="product__text">Мебель может быть оснащена разнообразными системами подсветки.</p>
+                <div class="product__box-price">
+                    <span class="product__price">45 000 руб.</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/tatran-2.jpeg" alt="фото Кровать TATRAN" class="product__img">
+                <a class="product__name" href="tatran-2.html">Кровать TATRAN</a>
+                <p class="product__text">Основание из полированной нержавеющей стали, придает оригинальный парящий эффект.</p>
+                <div class="product__box-price">
+                    <span class="product__price">120 000 руб.</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/vilora-2.jpeg" alt="фото Кресло VILORA" class="product__img">
+                <a class="product__name" href="vilora-2.html">Кресло VILORA</a>
+                <p class="product__text">Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань.</p>
+                <div class="product__box-price">
+                    <span class="product__price">21 000 руб.</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/menu-2.jpeg" alt="фото Стол MENU" class="product__img">
+                <a class="product__name" href="menu-2.html">Стол MENU</a>
                 <p class="product__text">Европейский дуб - отличается особой прочностью и стабильностью.</p>
+                <div class="product__box-price">
+                    <span class="product__price">34 000 руб.</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/askesta-2.jpeg" alt="фото Диван ASKESTA" class="product__img">
+                <a class="product__name" href="askesta-2.html">Диван ASKESTA</a>
+                <p class="product__text">Благодаря защелкивающемуся механизму диван легко раскладывается в комфортную кровать.</p>
+                <div class="product__box-price">
+                    <span class="product__price">68 000 руб.</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/lunar-2.jpeg" alt="фото Кресло LUNAR" class="product__img">
+                <a class="product__name" href="lunar-2.html">Стол NORMAN</a>
+                <p class="product__text">Прекрасно переносит солнечные лучи, перепады влажности и любые осадки.</p>
+                <div class="product__box-price">
+                    <span class="product__price">40 000 руб.</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="./img/nastan-2.jpeg" alt="фото Шкаф Nastan" class="product__img">
+                <a class="product__name" href="nastan-2.html">Шкаф Nastan</a>
+                <p class="product__text">Мебель может быть оснащена разнообразными системами подсветки.</p>
                 <div class="product__box-price">
                     <span class="product__price">45 000 руб.</span>
                 </div>
@@ -97,7 +157,7 @@
         </div>
     </section>
     <div class="link-inferior center">
-         <a href="catalog.html" class="link-superior">Перейти в каталог</a>
+         <a href="#" class="link-superior">Показать ещё</a>
     </div>
     <footer class="footer center">
         <div class="footer__logo">
