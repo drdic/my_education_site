@@ -62,6 +62,10 @@ body {
     color: $color-text;  
 }
 
+.menu-mobile {
+    display: none;
+}
+
 .menu__list {
     display: flex;
     gap: 20px;
@@ -452,3 +456,4 @@ body {
 @import "cart";
 @import "catalog";
 @import "tablet";
+@import "mobile";
