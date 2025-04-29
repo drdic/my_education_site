@@ -190,10 +190,16 @@ body {
   margin-bottom: 16px;
 }
 
-.link {
+.link-superior {
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  transition: 1s;
+}
+.link-superior:hover {
+  text-decoration: none;
+  color: rgb(253, 253, 253);
 }
 
 .heading {
@@ -325,13 +331,21 @@ body {
 }
 
 .link-inferior {
+  color: rgb(0, 0, 0);
+  font-family: inherit;
   font-size: 16px;
+  font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 39px;
   margin-bottom: 64px;
+  transition: 1s;
 }
-
-.link-superior {
-  color: #000000;
+.link-inferior:hover {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
 }
 
 .footer {
@@ -346,7 +360,7 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
   padding-bottom: 12px;
 }
 .footer__icons__social {
