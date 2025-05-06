@@ -1,24 +1,28 @@
+@charset "UTF-8";
+/* Стили всплывающего окна по-умолчанию */
 .modal {
-  position: fixed;
+  position: fixed; /* фиксированное положение */
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5); /* фон */
   z-index: 1050;
-  opacity: 0;
-  transition: opacity 200ms ease-in;
-  pointer-events: none;
+  opacity: 0; /* по умолчанию модальное окно прозрачно */
+  transition: opacity 200ms ease-in; /* анимация перехода */
+  pointer-events: none; /* элемент невидим для событий мыши */
   margin: 0;
   padding: 0;
 }
 
+/* При отображении модального окно */
 .modal:target {
-  opacity: 1;
-  pointer-events: auto;
-  overflow-y: auto;
+  opacity: 1; /* делаем окно видимым */
+  pointer-events: auto; /* элемент видим для событий мыши */
+  overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
 }
 
+/* ширина модального окна и его отступы от экрана */
 .modal-dialog {
   position: relative;
   width: auto;
@@ -26,6 +30,7 @@
   left: 50%;
 }
 
+/* Стили для блока с контентом окна */
 .modal-content {
   position: relative;
   display: flex;
@@ -40,6 +45,7 @@
   padding: 40px 48px;
 }
 
+/* Стили блока основного содержимого окна */
 .modal-body {
   position: relative;
   flex: 1 1 auto;
