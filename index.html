@@ -21,10 +21,54 @@
                     <a class="menu__link" href="catalog.html">Каталог</a>
                   </li>
                   <li class="menu__item">
-                    <a class="menu__link" href="cart.html">Корзина</a>
+                    <a class="menu__link" href="#openModal">Корзина</a>
                   </li>
                 </ul>
             </nav>
+            <div id="openModal" class="modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="modal__cart__item">
+                                <div class="modal__cart__left">
+                                    <a class="modal__cart__img" href="cart.html">
+                                        <img src="img/modaltable.jpeg" alt="table-MENU"></a>
+                                    <div class="modal__cart__info">
+                                        <h4 class="modal__cart__title">Стол MENU</h4>
+                                        <p class="modal__cart__price">34 000 руб.</p>
+                                        <div class="modal__cart__link-box">
+                                            <a class="modal__cart__link" href="#">Избранные</a>
+                                            <a class="modal__cart__link" href="#">Удалить</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input class="modal__cart__input" type="number" value="1" min="1">
+                            </div>
+                            <div class="modal__cart__item modal__cart__item_1">
+                                <div class="modal__cart__left">
+                                    <a class="modal__cart__img" href="cart.html">
+                                        <img src="img/modalsofa.jpeg" alt="table-MENU"></a>
+                                    <div class="modal__cart__info">
+                                        <h4 class="modal__cart__title">Диван NASTAN</h4>
+                                        <p class="modal__cart__price">80 000 руб.</p>
+                                        <div class="modal__cart__link-box">
+                                            <a class="modal__cart__link" href="#">Избранные</a>
+                                            <a class="modal__cart__link" href="#">Удалить</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <input class="modal__cart__input" type="number" value="1" min="1">
+                            </div>
+                            <div class="modal__total">
+                                <h2 class="modal__total__headihg">Итого: 114 000 руб.</h2>
+                                <form action="cart.html">
+                                    <button class="modal__cart__button-1 modal__cart__button-1_modal">Оформить заказ</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="menu-mobile">
                 <a href="index.html"><svg width="19.000000" height="19.000000" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <desc>
