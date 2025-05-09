@@ -928,6 +928,15 @@ body {
   padding-top: 13px;
 }
 
+.header {
+  height: 76px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+}
+
 .select-filter-box {
   display: flex;
   flex-wrap: wrap;
@@ -1353,6 +1362,7 @@ body {
   }
   .header {
     padding-top: 32px;
+    border-bottom: none;
   }
   .header__input {
     display: none;
@@ -1372,6 +1382,15 @@ body {
     font-size: 48px;
     line-height: 59px;
     text-align: center;
+    margin-top: 82px;
+    width: 100%;
+  }
+  .title__catalog {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 82px;
+    width: 100%;
   }
   .select-filter-box {
     flex-direction: column-reverse;
@@ -1381,15 +1400,12 @@ body {
     right: auto;
   }
   .filtering-form__content {
-    flex-wrap: nowrap;
-    max-height: -moz-fit-content;
-    max-height: fit-content;
-    min-width: 286px;
+    max-height: none;
+    min-width: 190px;
   }
   .catalog {
     flex-direction: column;
     align-content: flex-start;
-    padding-top: 32px;
     row-gap: 14px;
   }
   .top__text {
@@ -1402,12 +1418,41 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  .link {
+  .link-superior {
     font-size: 14px;
+  }
+  .cart__name-box {
+    display: none;
+  }
+  .cart__img {
+    display: none;
+  }
+  .cart__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .cart__description {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .cart__price {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .cart__button-1_catalog {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
   }
   .heading {
     font-size: 24px;
     line-height: 29px;
+  }
+  .heading-big {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    margin-top: 82px;
   }
   .for {
     grid-template-columns: repeat(4, 1fr);
@@ -1423,6 +1468,9 @@ body {
   .for__item_big {
     height: 244px;
   }
+  .for-box {
+    padding-top: 32px;
+  }
   .product__name {
     font-size: 18px;
     line-height: 22px;
@@ -1431,6 +1479,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .product-box__title {
+    max-width: 343px;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 36px;
   }
   .footer__content {
     justify-content: center;

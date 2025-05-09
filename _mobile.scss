@@ -6,6 +6,7 @@
 
     .header {
         padding-top: 32px;
+        border-bottom: none;
         &__input {
             display: none;
         }
@@ -30,6 +31,16 @@
         font-size: 48px;
         line-height: 59px;
         text-align: center;
+        margin-top: 82px;
+        width: 100%;
+    }
+
+    .title__catalog {
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        margin-top: 82px;
+        width: 100%;
     }
 
     .select-filter-box {
@@ -41,17 +52,22 @@
         left: 0;
         right: auto;
 
+        // &__content {
+        //     flex-wrap: nowrap;
+        //     max-height: fit-content;
+        //     min-width: 286px;
+        // }
+
         &__content {
-            flex-wrap: nowrap;
-            max-height: fit-content;
-            min-width: 286px;
+            max-height: none;
+            min-width: 190px;
         }
     }
 
     .catalog {
         flex-direction: column;
         align-content: flex-start;
-        padding-top: 32px;
+        // padding-top: 32px;
         row-gap: 14px;
     }
 
@@ -68,18 +84,59 @@
         }
     }
 
-    .link {
+    .link-superior {
         font-size: 14px;
+    }
+
+    .cart {
+
+        &__name-box {
+            display: none;
+        }
+
+        &__img {
+            display: none;
+        }
+
+        &__title {
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        &__description {
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        &__price {
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        &__button-1_catalog {
+            display: flex;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
     }
 
     .heading {
         font-size: 24px;
         line-height: 29px;
+
+        &-big {
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+            margin-top: 82px;
+        }
     }
 
     .for {
+
         grid-template-columns: repeat(4, 1fr);
         gap: 16px;
+
         &__item {
             grid-column: 1 / -1;
             height: 375px;
@@ -91,9 +148,14 @@
                 height: 244px;
             }
         }
+
+        &-box {
+            padding-top: 32px;
+        }
     }
 
     .product {
+        
         &__name {
             font-size: 18px;
             line-height: 22px;
@@ -103,7 +165,16 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+
         }
+
+        &-box__title {
+            max-width: 343px;
+            font-size: 24px;
+            line-height: 29px;
+            margin-top: 36px;
+        }
+
     }
 
     .footer {
