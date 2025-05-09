@@ -24,10 +24,12 @@
 }
 
 .modal-dialog {
-    position: relative;
+    /* position: relative; */
+    position: absolute;
     width: auto;
     margin-top: 66px;
-    left: 50%;
+    /* left: 50%; */
+    right: calc(50% - 600px);
    
 }
 

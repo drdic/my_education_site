@@ -32,6 +32,10 @@ body {
     color:  #FFFFFF;
 }
 
+.modal-wrapper {
+    position: relative;
+}
+
 .header {
     height: 77px;
     display: flex;
@@ -511,8 +515,9 @@ body {
 
 }
 
+@import 'modalwindow';
 @import 'cart';
 @import 'catalog';
 @import 'tablet';
 @import 'mobile';
-@import 'modalwindow';
+

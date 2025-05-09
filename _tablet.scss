@@ -4,6 +4,10 @@
         padding-right: calc(50% - 393px);
     }
 
+    .modal-dialog {
+        right: calc(50% - 393px);
+    }
+
     .for {
         &__item {
             height: 268px;
@@ -20,7 +24,8 @@
     }
 
     .filtering-form {
-        left: -120px;
+        /* left: -120px; */
+        right: calc(0% - 237px);
     }
 
     .cart {
@@ -47,6 +52,10 @@
 
     .product {
         width: 345px;
+    }
+
+    .modal-dialog {
+        right: 24px;
     }
 }
 

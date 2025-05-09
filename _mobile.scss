@@ -32,10 +32,27 @@
         text-align: center;
     }
 
+    .select-filter-box {
+        flex-direction: column-reverse;
+    }
+
+    .filtering-form {
+
+        left: 0;
+        right: auto;
+
+        &__content {
+            flex-wrap: nowrap;
+            max-height: fit-content;
+            min-width: 286px;
+        }
+    }
+
     .catalog {
         flex-direction: column;
         align-content: flex-start;
         padding-top: 32px;
+        row-gap: 14px;
     }
 
     .top {
