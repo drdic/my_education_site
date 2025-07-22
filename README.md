@@ -1,2 +1,1 @@
-Это мой учебный сайт. Здесь я тренируюсь в HTML и CSS.
-https://drdic.github.io/my_education_site/index.html
+Демо-сайт мебельного магазина. https://drdic.github.io/1-nd-course-hw/
